@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Number Game</title>
+  </head>
+  <body>
+    <header>
+      <h1>Number Game !!!</h1>
+      <button class="again">Again!</button>
+      </header>
+
+      <div id="toFrom">
+        <h3>Select the Range!!(>0)</h3>
+        <label>From:   </label>
+             
+              <input type="number" id="From" class="guessField">
+              <label>To: </label> <input type="number" id="To" class="guessField">
+              <input type="submit" value="Start!!! " class="start">
+  
+        </div>
+
+      
+<div class="error"></div>
+<section class="game">
+  <p class="message">Try guessing?</p>
+  <div class="form">
+    <label for="guessField">Enter a guess:   </label>
+    <input type="number" id="guess" class="guessField">
+    <input type="submit" value="Submit guess" class="check">
+  </div>
+
+<div class="results">
+ <p>Score: <span class="score"> 15</span></p>
+</div>
+</section>
+
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
